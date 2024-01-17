@@ -33,7 +33,7 @@ function App() {
   let styleMydiv = {
     display: "grid",
     gridTemplateColumns:"repeat(2,1fr)",
-    margin:"20px",
+    margin:"70px",
     gap:"100px",
     placeItems: "center"
 
@@ -43,10 +43,10 @@ function App() {
     <h1 style ={galleyStyle}>Kalvium Gallery</h1>
 
     <div style={styleMydiv}> 
-      <img src = {data[0].img} width={"400px"}/>
-      <img src = {data[1].img} width={"400px"}/>
-      <img src = {data[2].img} width={"400px"}/>
-      <img src = {data[3].img} width={"400px"}/>
+      <img src = {data[0].img} width={"500px"}/>
+      <img src = {data[1].img} width={"500px"}/>
+      <img src = {data[2].img} width={"500px"}/>
+      <img src = {data[3].img} width={"500px"}/>
     </div>
 
     {/* <div style = {styleMydiv}>
